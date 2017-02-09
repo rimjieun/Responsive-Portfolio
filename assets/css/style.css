@@ -42,7 +42,7 @@ h3 {
   font-size: 22px;
 }
 /*header*/
-#masthead {
+.container-fluid {
   position: fixed;
   z-index: 99;
   margin: 0 0 30px;
@@ -243,7 +243,7 @@ input[type=submit] {
   .container {
     width: 100%;
   }
-  #masthead {
+  .container-fluid {
     position: static;
     margin: 0;
   }
@@ -257,10 +257,14 @@ input[type=submit] {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    
   }
   nav a {
-    width: 29%;
+    width: 30%;
     text-align: center;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
   }
   .auth-image {
     width: 100%;
