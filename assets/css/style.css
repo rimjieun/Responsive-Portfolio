@@ -255,17 +255,16 @@ input[type=submit] {
   }
   nav {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px auto;
     
   }
   nav a {
     width: 30%;
     text-align: center;
     font-size: 100%;
-    padding: 0;
+    padding-left: 20px;
     margin: 0;
-    padding-left: 5px;
+    
   }
   .auth-image {
     width: 100%;
